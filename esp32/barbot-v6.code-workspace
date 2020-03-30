@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Platform IO Test",
+			"path": "C:\\Users\\mitch\\OneDrive\\Documents2\\PlatformIO\\Projects\\Platform IO Test"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"random": "cpp"
+		}
+	}
+}

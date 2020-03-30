@@ -1,0 +1,7 @@
+{
+  "name": "BARBOT V6",
+  "description": "Alexa controlled esp32 cocktail maker",
+  "repository": "https://github.com/mitchellshort/esp32-alexa-cocktail-machine/",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["esp8266", "google home", "wihtout ifttt", "iot", "arduino", "Alexa Skills", "cocktails"]
+}

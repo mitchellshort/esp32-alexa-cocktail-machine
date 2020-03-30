@@ -21,7 +21,7 @@
 int EEPROM_MADE = 19;
 
 //GLOBALS
-const char host[] = "alexatender3.herokuapp.com";
+const char host[] = "barbot-v6.herokuapp.com";
 const char path[] = "/ws";
 const int port = 80;
 

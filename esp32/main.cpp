@@ -21,7 +21,7 @@
 int EEPROM_MADE = 19;
 
 //GLOBALS
-const char host[] = "barbot-v6.herokuapp.com";
+const char host[] = "WEBSOCKETS HOST ADDRESS";
 const char path[] = "/ws";
 const int port = 80;
 
@@ -593,8 +593,8 @@ void readCupSensor()
 
 void wifi_connect(){
   //LIST OF KNOWN NETWORKS - WiFiMulti will connect to the strongest one
-  wifiMulti.addAP("SKY3E256", "BDYBYBVYFS");
-  wifiMulti.addAP("AndroidAP2", "1029384756");
+  wifiMulti.addAP("SSID", "PASSWORD");
+  wifiMulti.addAP("SSID2", "PASSWORD2");
   //WiFiMulti.addAP("SSID", "passpasspass"); //add as many more as needed
 
   //WiFi.disconnect();

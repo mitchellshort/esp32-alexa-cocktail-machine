@@ -71,8 +71,8 @@ class HttpWSSProtocol(websockets.WebSocketServerProtocol):
                         ESPparameters['cmd'] = 'cmd'
             
                             
-            with open('data.json', 'w') as outfile:
-                json.dump(json.dumps(jsonRequest), outfile)
+            #with open('data.json', 'w') as outfile:
+            #    json.dump(json.dumps(jsonRequest), outfile)
                 #await self.rwebsocket.send(alexaRequest)            
                 # # send command to ESP over websocket
             if self.rwebsocket== None:

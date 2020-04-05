@@ -91,7 +91,7 @@ class HttpWSSProtocol(websockets.WebSocketServerProtocol):
                 'HTTP/1.1 200 OK',
                 'Content-Type: text/json',
                 '',
-                '{\"version\": \"1.0\",\"sessionAttributes\": {},\"response\": {\"outputSpeech\": {\"type\": \"PlainText\",\"text\": \"Ok, doing that now"},\"shouldEndSession\": true}}',
+                '{\"version\": \"1.0\",\"sessionAttributes\": {},\"response\": {\"outputSpeech\": {\"type\": \"PlainText\",\"text\": \"Ok"},\"shouldEndSession\": true}}',
             ])
             print('response: ' + response)
         except Exception as e:
